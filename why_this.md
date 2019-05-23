@@ -22,3 +22,16 @@ git repo instead of relying on my package manager.
 installed rbenv (a ruby environment like venv for python).
 
 installed ruby 2.6.3 (the latest one) and then made it globally available
+
+and it didn't work!
+
+using the package manager again :(
+
+used root permissions and tried using my brain for a custom install it so it failed miserably (don't want to go in the details). Reinstalled it using the [official instructions](https://jekyllrb.com/docs/installation/ubuntu/) and finally it worked!
+
+create a website using jekyll and served it on localhost (my computer)
+```bash
+$ jekyll new blog
+$ cd blog
+$ bundle exec jekyll serve
+```
