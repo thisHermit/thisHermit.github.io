@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bashar Jaan Khan, adjective, Launches Site"
+title: "Bashar Jaan Khan, meta Hermit, Launches Site"
 date: 2019-08-05
 ---
 
