@@ -8,37 +8,7 @@ Last week on Saturday, we got a project to make a multi-threaded program
 to find the word count of all words in all the files giving in a directory.
 
 First I created 8 files as the source. The code for that:
-```python
-import random
-
-
-def main():
-    s = [
-        "the", "of", "that", "this",
-        "at", "a", "to", "in", "is",
-        "you", "be", "it", "he", "she",
-        "have", "from", "or", "for",
-        "one", "had", "by", "word",
-        "but", "there", "use", "an",
-        "each", "which", "she", "do",
-        "how", "their", "if", "will",
-        "some", "her", "would", "make",
-        "like", "him", "into", "time",
-        "has", "look", "two"
-        ]
-
-    for i in range(7):
-        with open('file00' + str(i) + '.txt', 'w') as f:
-            no_lines = int(random.gauss(10, 3))
-            for j in range(no_lines):
-                f.write(' '.join([random.choice(s) for k in range(int(random.gauss(20, 3)))]))
-                f.write('\n')
-
-
-if __name__ == '__main__':
-    main()
-
-```
+<script src="https://gist.github.com/thisHermit/662b8fe6d671fb04f86f4d84180d089b.js"></script>
 
 The words' set is selected from the most common English words from this website
 [here](https://www.rypeapp.com/most-common-english-words/).
