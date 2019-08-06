@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "material-design-for-the-future"
+title: "Material Design For the Future"
 date: "2019-08-06 23:57:26 +0530"
 ---
 
