@@ -37,10 +37,11 @@ The data is retrieved from these sources
 ## Methodology
 
 I used BeautifulSoup to get the data from Wikipedia and then converted
-it to Pandas Dataframe
+it to Pandas Dataframe.
+
 ![]({{ site.url }}/assets/Screenshot_2019-08-11_19-30-40.png)
 
-Then I mereged with the Geospatial Coordinates. 
+Then I mereged with the Geospatial Coordinates.
 ![]({{ site.url }}/assets/Screenshot_2019-08-11_19-32-24.png)
 
 Here is a map of the Neighborhoods in discussion.
@@ -59,17 +60,20 @@ Then the likes for the individual neighborhoods are added.
 ![]({{ site.url }}/assets/venues_with_likes.png)
 
 Now, the mean for all the likes for each venue category in each neighborhood is found.
+
 ![]({{ site.url }}/assets/likes_for_neighborhoods.png)
 
 Using the previous dataset the likes for the venues are found.
 ![]({{ site.url }}/assets/likes_for_common_venues.png)
 
 The number of likes are summed for each row if the most common venue is a Restaurant.
+
 ![]({{ site.url }}/assets/restaurant_likes.png)
 
 ## Results
 
 As a initial exploratory analysis, the neighborhood is sorted on the basis of likes.
+
 ![]({{ site.url }}/assets/sorted_rests.png)
 
 Elbow Method is used to find the appropriate number of clusters.
