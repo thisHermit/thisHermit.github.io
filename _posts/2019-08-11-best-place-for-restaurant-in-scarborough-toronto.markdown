@@ -68,8 +68,6 @@ Using the previous dataset the likes for the venues are found.
 
 The number of likes are summed for each row if the most common venue is a Restaurant.
 
-![]({{ site.url }}/assets/restaurant_likes.png)
-
 ## Results
 
 As a initial exploratory analysis, the neighborhood is sorted on the basis of likes.
