@@ -37,13 +37,17 @@ The data is retrieved from these sources
 ## Methodology
 
 I used BeautifulSoup to get the data from Wikipedia and then converted
-it to Pandas Dataframe ![]({{ site.url }}/assets/Screenshot_2019-08-11_19-30-40.png)
+it to Pandas Dataframe
+![]({{ site.url }}/assets/Screenshot_2019-08-11_19-30-40.png)
 
-Then I mereged with the Geospatial Coordinates ![]({{ site.url }}/assets/Screenshot_2019-08-11_19-32-24.png)
+Then I mereged with the Geospatial Coordinates. 
+![]({{ site.url }}/assets/Screenshot_2019-08-11_19-32-24.png)
 
-Here is a map of the Neighborhoods in discussion ![]({{ site.url }}/assets/scarborough_map.png)
+Here is a map of the Neighborhoods in discussion.
+![]({{ site.url }}/assets/scarborough_map.png)
 
-Then using the Foursquare API the venues in the Neighborhoods are collected. This is a sample of the result ![]({{ site.url }}/assets/venues_list.png)
+Then using the Foursquare API the venues in the Neighborhoods are collected. This is a sample of the result.
+![]({{ site.url }}/assets/venues_list.png)
 
 The Venue Categories are converted into a one hot form to apply K means to it later.
 ![]({{ site.url }}/assets/one_hot.png)
