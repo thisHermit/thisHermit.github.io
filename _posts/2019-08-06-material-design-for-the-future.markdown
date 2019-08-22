@@ -2,6 +2,7 @@
 layout: post
 title: "Material Design For the Future"
 date: "2019-08-06 23:57:26 +0530"
+categories: [material-design, theme]
 ---
 
 So, I was looking for good color palettes online and found

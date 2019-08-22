@@ -2,6 +2,7 @@
 layout: post
 title: "Multi processing fun"
 date: 2019-08-05
+categories: [multi-processing, assignment]
 ---
 
 Last week on Saturday, we got a project to make a multi-threaded program

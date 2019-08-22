@@ -2,6 +2,7 @@
 layout: post
 title: "Best Place for Restaurant in Scarborough Toronto"
 date: "2019-08-11 17:17:01 +0530"
+categories: [data, analysis, pandas]
 ---
 
 ## Introduction
