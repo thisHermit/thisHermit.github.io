@@ -2,17 +2,16 @@
 	<html>
 		<head>
 			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body>
 			<header>
 				<nav>
 		    		<ul>
-		        		<li><a href="/">Home</a></li>
-			        	<li><a href="/about">About</a></li>
+		        		<li class = "{% if page.url == "/" %}current{% endif %}"><a href="/">Home</a></li>
+			        	<li class = "{% if page.url == "/about/" %}current{% endif %}"><a href="/about/">About</a></li>
 		        		<!-- <li><a href="/cv">CV</a></li> -->
-		        		<li><a href="/blog">Blog</a></li>
+		        		<li class = "{% if page.url == "/blog/" %}current{% endif %}"><a href="/blog/">Blog</a></li>
 		    		</ul>
 				</nav>
 			</header>
