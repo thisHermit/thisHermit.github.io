@@ -5,14 +5,14 @@ date: "2019-08-11 17:17:01 +0530"
 categories: [data, analysis, pandas]
 ---
 
-## Introduction
-
-### Description & Discussion of the Background
-
 Scarborough is an administrative division in Toronto, Ontario, Canada.
 Situated atop the eastern the Scarborough Bluffs, it occupies the
 eastern part of the city. It is also a popular destination for new
 immigrants in Canada to reside.
+
+## Introduction
+
+### Description & Discussion of the Background
 
 Its population density is 3,367.6/km2 (8,722/sq mi) and has a total
 size of 187.70 km2 (72.47 sq mi) ([more info here](https://en.wikipedia.org/wiki/Scarborough,_Toronto)).
