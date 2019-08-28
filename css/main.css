@@ -59,7 +59,7 @@ a {
 }
 
 a:hover {
-    // add color here
+    color: #2a90bb;
 }
 h1 {
     font-size: 3em;
