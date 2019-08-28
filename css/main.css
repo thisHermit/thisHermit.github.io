@@ -58,11 +58,7 @@ a {
 }
 
 a:hover {
-  
-}
-
-a:hover {
-    text-decoration: underline;
+    // add color here
 }
 h1 {
     font-size: 3em;
