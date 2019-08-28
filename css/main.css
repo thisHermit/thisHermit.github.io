@@ -4,6 +4,14 @@ body {
     background-color: #333;
     color: #ddd;
 }
+
+header {
+    display: block;
+    padding: 15px;
+    background: #2b2b2b;
+    width: 100%;
+}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
