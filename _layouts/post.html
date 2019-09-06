@@ -10,7 +10,7 @@ comments: true
   {{ content }}
 </div>
 <form method="POST" action="https://api.staticman.net/v3/entry/github/thisHermit/thisHermit.github.io/master/comments">
-  <input name="options[redirect]" type="hidden" value="https://thisHermit.github.io">
+  <input name="options[redirect]" type="hidden" value="{{ site.url }}/{{ page.id }}">
   <!-- e.g. "2016-01-02-this-is-a-post" -->
   <input name="options[slug]" type="hidden" value="{{ page.slug }}">
   <label><input name="fields[name]" type="text">Name</label>
@@ -19,6 +19,23 @@ comments: true
 
   <button type="submit">Go!</button>
 </form>
+
+<div class="comments">
+  <ul>
+    {% for comment in site.data.comments[page.slug] %}
+      {% assign commentData = comment[1] %}
+      <li>
+        <ul>
+          <li>{{ commentData.name }}</li>
+          <li>{{ commentData.email }}</li>
+          <li>{{ commentData.message }}</li>
+          <li>{{ commentData.date }}</li>
+        </ul>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
 <div id="disqus_thread"></div>
 <script>
   /**
