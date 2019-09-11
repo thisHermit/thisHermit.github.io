@@ -20,21 +20,7 @@ comments: true
   <button type="submit">Go!</button>
 </form>
 
-<div class="comments">
-  <ul>
-    {% for comment in site.data.comments[page.slug] %}
-      {% assign commentData = comment[1] %}
-      <li>
-        <ul>
-          <li>{{ commentData.name }}</li>
-          <li>{{ commentData.email }}</li>
-          <li>{{ commentData.message }}</li>
-          <li>{{ commentData.date }}</li>
-        </ul>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+{% include comments.html %}
 
 <div id="disqus_thread"></div>
 <script>
