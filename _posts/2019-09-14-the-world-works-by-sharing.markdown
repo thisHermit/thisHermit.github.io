@@ -2,6 +2,7 @@
 layout: post
 title: "The world works by sharing"
 date: "2019-09-14 17:44:39 +0530"
+categories: [philosophy, life]
 ---
 
 The world is now a positive sum game and now the more you make your neighbor happy, the more happy you going to be consequtively. Cover of this [here] (https://www.youtube.com/watch?v=rvskMHn0sqQ).

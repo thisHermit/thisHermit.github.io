@@ -2,6 +2,7 @@
 layout: post
 title: "Scholarship 101"
 date: "2019-09-14 10:10:22 +0530"
+categories: [tutorial, tricks, reference]
 ---
 
 Interested in Studying abroad and the high tuition fees scare you off? Here's a post to help you write the articles for the scholarship which are provided for almost anyone. This article was inspired by [Dr Chandra Balijepalli](https://environment.leeds.ac.uk/transport/staff/917/dr-chandra-balijepalli)'s lecture in my campus.
