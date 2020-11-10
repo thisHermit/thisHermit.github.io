@@ -8,7 +8,7 @@ Any one who wins the following challenge on [vim-golf](http://www.vimgolf.com/) 
 
 Go to vimgolf and get the lowest critic-score for six questions of (lowest possible is 2).
 
-## But what is critic-score?
+## But what is a critic-score?
 
 Critic-score for a challenge is calculated as follows:
 
